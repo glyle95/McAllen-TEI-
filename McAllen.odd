@@ -24,7 +24,7 @@
         <moduleRef key="core" include="author bibl biblScope citedRange date editor head name note p pb pubPlace publisher resp respStmt title"/>
         <moduleRef key="tei"/>
         <moduleRef key="textstructure"/>
-        <moduleRef key="namesdates" include="orgName persName placeName"/>
+        <moduleRef key="namesdates" include="date orgName persName placeName"/>
         
         <elementSpec ident="persName" module="namesdates" mode="change">
           <content>
@@ -80,10 +80,12 @@
         <elementSpec ident="p" module="core" mode="change">
           <content>
             <sequence preserveOrder="false">
-              <elementRef key="note"/>
-              <elementRef key="pb"/>
-              <elementRef key="persName"/>
-              <elementRef key="placeName"/>
+              <elementRef key="note" minOccurs="0"/>
+              <elementRef key="pb" minOccurs="0"/>
+              <elementRef key="persName" minOccurs="0"/>
+              <elementRef key="placeName" minOccurs="0"/>
+              <elementRef key="orgName" minOccurs="0"/>
+              <elementRef key="date" minOccurs="0"/>
             </sequence>
           </content>
           <constraintSpec ident="pInHeader" scheme="schematron">
