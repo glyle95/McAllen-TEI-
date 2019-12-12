@@ -18,12 +18,12 @@
   </teiHeader>
   <text>
     <body>
-      <schemaSpec ident="" start="TEI">
+      <schemaSpec ident="McAllen" start="TEI">
         <desc/>
         <moduleRef key="header" include="authority availability fileDesc publicationStmt sourceDesc teiHeader titleStmt"/>
         <moduleRef key="core" include="author bibl biblScope citedRange date editor head name note p pb pubPlace publisher resp respStmt title"/>
         <moduleRef key="tei"/>
-        <moduleRef key="textstructure" include="body dateline div text trailer"/>
+        <moduleRef key="textstructure"/>
         <moduleRef key="namesdates" include="persName placeName"/>
         
         <elementSpec ident="persName" module="namesdates" mode="change">
@@ -43,6 +43,12 @@
             </sch:rule>
           </constraint>
           </constraintSpec>
+        </elementSpec>
+        
+        <elementSpec ident="placeName" module="namesdates" mode="change">
+          <content>
+            <textNode/>
+          </content>
           <constraintSpec ident="refOnPlaceName" scheme="schematron">
             <constraint>
               <sch:rule context="tei:body//tei:p//tei:placeName/@ref">
@@ -55,30 +61,20 @@
               </sch:rule>
             </constraint>
           </constraintSpec>
-          <attList>
-            <attDef ident="ref" usage="req">
-                           <valList type="closed">
-              </valList>
-            </attDef>
-          </attList>
         </elementSpec>
         
-        <elementSpec ident="placeName" module="namesdates" mode="change">
-          <content>
-            <textNode/>
-          </content>
-          <attList>
-            <attDef ident="ref">
-              <valList type="closed">
-                <valItem ident="#chal01">
-                  <gloss>Chalcis</gloss>
-                </valItem>
-                <valItem ident="#pal01">
-                  <gloss>Paltus</gloss>
-                </valItem>
-              </valList>
-            </attDef>
-          </attList>
+        <elementSpec ident="orgName" module="namesdates">
+          <constraintSpec ident="refOnOrgName" scheme="schematron">
+            <constraint>
+              <sch:rule context="tei:body//tei:p//tei:orgName/@ref">
+                <sch:let name="indexDoc" value="doc('https://raw.githubusercontent.com/glyle95/McAllen-TEI-/master/McAllenIndex.xml')"/>
+                <sch:let name="orgIDs" value="$indexDoc//tei:body/tei:listOrg/tei:org/@xml:id"/>
+                <sch:let name="orgPtrs" value="for $i in $orgIDs return concat('#', $i)"/>
+                <sch:assert test=". = $orgPtrs"> Value must be one of the following: <sch:value-of select="string-join($orgPtrs, ', ')"/>
+                </sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
         </elementSpec>
         
         <elementSpec ident="p" module="core" mode="change">

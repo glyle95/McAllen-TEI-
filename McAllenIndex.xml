@@ -401,6 +401,10 @@
                     <placeName>McAllen</placeName>
                     <idno type="URI">https://www.mcallen.net</idno>
                 </place>
+                <place xml:id="tex">
+                    <placeName>Texas</placeName>
+                    <idno type="URI">https://texas.gov</idno>
+                </place>
                 <place xml:id="phar">
                     <placeName>Pharr</placeName>
                     <placeName>Pharr, Texas</placeName>
