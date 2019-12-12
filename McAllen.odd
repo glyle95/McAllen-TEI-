@@ -21,7 +21,7 @@
       <schemaSpec ident="McAllen" start="TEI">
         <desc/>
         <moduleRef key="header" include="authority availability fileDesc publicationStmt sourceDesc teiHeader titleStmt"/>
-        <moduleRef key="core" include="author bibl biblScope citedRange date editor head name note p pb pubPlace publisher resp respStmt title"/>
+        <moduleRef key="core" include="author bibl biblScope citedRange date editor head name note p pb pubPlace publisher resp respStmt title sic reg orig"/>
         <moduleRef key="tei"/>
         <moduleRef key="textstructure"/>
         <moduleRef key="namesdates" include="date orgName persName placeName"/>
@@ -29,7 +29,7 @@
         <elementSpec ident="persName" module="namesdates" mode="change">
           <content>
             <textNode/>
-            <elementRef key="placeName"/>
+            <elementRef key="placeName" minOccurs="0"/>
           </content>
           <constraintSpec ident="refOnPersName" scheme="schematron">
           <constraint>
@@ -79,13 +79,14 @@
         
         <elementSpec ident="p" module="core" mode="change">
           <content>
-            <alternate>
-              <elementRef key="note" minOccurs="0"/>
+            <alternate minOccurs="0" maxOccurs="unbounded"><elementRef key="note" minOccurs="0"/>
+            <textNode/>
               <elementRef key="pb" minOccurs="0"/>
-              <elementRef key="persName" minOccurs="0"/>
-              <elementRef key="placeName" minOccurs="0"/>
-              <elementRef key="orgName" minOccurs="0"/>
-              <elementRef key="date" minOccurs="0"/>
+            <elementRef key="persName" minOccurs="0"/>
+            <elementRef key="placeName" minOccurs="0"/>
+            <elementRef key="orgName" minOccurs="0"/>
+            <elementRef key="date" minOccurs="0"/>
+              <elementRef key="sic" minOccurs="0"/>
             </alternate>
           </content>
           <constraintSpec ident="pInHeader" scheme="schematron">
