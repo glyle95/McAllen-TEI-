@@ -5,7 +5,7 @@
          xmlns:teix="http://www.tei-c.org/ns/Examples"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2019-12-12T20:00:47Z. .
+Schema generated from ODD source 2019-12-12T20:17:06Z. .
 TEI Edition: Version 3.5.0. Last updated on
 	29th January 2019, revision 3c0c64ec4
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.5.0/
@@ -4039,13 +4039,41 @@ Suggested values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4
          </attribute>
       </optional>
    </define>
+   <define name="orgName">
+      <element name="orgName">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(organization name) contains an organizational name. [13.2.2. Organizational Names]</a:documentation>
+         <ref name="macro.phraseSeq"/>
+         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+                  id="McAllen-orgName-refOnOrgName-constraint-rule-9">
+            <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
+                      xmlns:svg="http://www.w3.org/2000/svg"
+                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+                      xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                      context="tei:body//tei:p//tei:orgName/@ref">
+                <sch:let name="indexDoc"
+                        value="doc('https://raw.githubusercontent.com/glyle95/McAllen-TEI-/master/McAllenIndex.xml')"/>
+                <sch:let name="orgIDs" value="$indexDoc//tei:body/tei:listOrg/tei:org/@xml:id"/>
+                <sch:let name="orgPtrs" value="for $i in $orgIDs return concat('#', $i)"/>
+                <sch:assert test=". = $orgPtrs"> Value must be one of the following: <sch:value-of select="string-join($orgPtrs, ', ')"/>
+                </sch:assert>
+              </sch:rule>
+         </pattern>
+         <ref name="att.global.attributes"/>
+         <ref name="att.datable.attributes"/>
+         <ref name="att.editLike.attributes"/>
+         <ref name="att.personal.attributes"/>
+         <ref name="att.typed.attributes"/>
+         <empty/>
+      </element>
+   </define>
    <define name="persName">
       <element name="persName">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(personal name) contains a proper noun or proper-noun phrase referring to a person, possibly including one or more of the person's forenames, surnames, honorifics, added names, etc. [13.2.1. Personal Names]</a:documentation>
          <text/>
          <ref name="placeName"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="McAllen-persName-refOnPersName-constraint-rule-9">
+                  id="McAllen-persName-refOnPersName-constraint-rule-10">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:math="http://www.w3.org/1998/Math/MathML"
@@ -4074,7 +4102,7 @@ Suggested values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains an absolute or relative place name. [13.2.3. Place Names]</a:documentation>
          <text/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="McAllen-placeName-refOnPlaceName-constraint-rule-10">
+                  id="McAllen-placeName-refOnPlaceName-constraint-rule-11">
             <sch:rule xmlns:xi="http://www.w3.org/2001/XInclude"
                       xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:math="http://www.w3.org/1998/Math/MathML"

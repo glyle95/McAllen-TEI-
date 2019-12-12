@@ -63,7 +63,7 @@
           </constraintSpec>
         </elementSpec>
         
-        <elementSpec ident="orgName" module="namesdates">
+        <elementSpec ident="orgName" module="namesdates" mode="change">
           <constraintSpec ident="refOnOrgName" scheme="schematron">
             <constraint>
               <sch:rule context="tei:body//tei:p//tei:orgName/@ref">

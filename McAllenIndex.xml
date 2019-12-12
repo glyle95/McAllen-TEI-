@@ -36,21 +36,26 @@
                 </person>
                 <person xml:id="awes">
                     <persName>Adolph Westerman</persName>
-                    <note type="desc">Adloph Westerman was one of the founding members of Temple Emanuel and popular merchant in the Rio Grande Valley.</note>
+                    <note type="desc">Adloph Westerman was one of the founding members of Temple
+                        Emanuel and popular merchant in the Rio Grande Valley.</note>
                 </person>
                 <person xml:id="slac">
                     <persName>Sam Lack</persName>
-                    <note type="desc">Sam Lack was one of the founding members of Temple Emanuel and prominent Israel Bonds advocate.</note>
+                    <note type="desc">Sam Lack was one of the founding members of Temple Emanuel and
+                        prominent Israel Bonds advocate.</note>
                 </person>
                 <person xml:id="bkow">
                     <persName>Benjamin Kowalski</persName>
-                    <note type="desc">Benjamin Kowalski served as mayor of Brownsville in 1876.</note>
+                    <note type="desc">Benjamin Kowalski served as mayor of Brownsville in
+                        1876.</note>
                 </person>
                 <person xml:id="sede">
                     <persName>Sophye Edelestein</persName>
                     <persName>Mrs. J. Edelstein</persName>
                     <persName>Mrs. Jacob Edelstein</persName>
-                    <note type="desc">Sophye Edelstein was the Sunday School teacher at Temple Beth Israel and Temple Emanuel for many years and was involved in the Temple Emanuel Sisterhood and Hadassah.</note>
+                    <note type="desc">Sophye Edelstein was the Sunday School teacher at Temple Beth
+                        Israel and Temple Emanuel for many years and was involved in the Temple
+                        Emanuel Sisterhood and Hadassah.</note>
                 </person>
                 <person xml:id="bfar">
                     <persName>Betty Jean Edelstein Farb</persName>
@@ -59,7 +64,7 @@
                 </person>
                 <person xml:id="hlew">
                     <persName>Hilda Chaleff Lewin</persName>
-                    <persName>Mrs. Leroy Lewin</persName>              
+                    <persName>Mrs. Leroy Lewin</persName>
                 </person>
                 <person xml:id="mlut">
                     <persName>Max Lutz</persName>
@@ -75,16 +80,19 @@
                     <persName>Yonah B. Geller</persName>
                     <persName>Rabbi Geller</persName>
                     <persName>Rabbi Y. Geller</persName>
-                    <note type="desc"> Rabbi Geller served the rabbi Temple B'nai Israel in Corpus Christi, but also led confirmation ceremonies in the Valley.</note>
+                    <note type="desc"> Rabbi Geller served the rabbi Temple B'nai Israel in Corpus
+                        Christi, but also led confirmation ceremonies in the Valley.</note>
                 </person>
                 <person xml:id="swol">
                     <persName>Sidney Wolf</persName>
                     <persName>Rabbi Wolf</persName>
-                    <note type="desc">Rabbi Wolf served the Temple Beth-El congregation in Corpus Christi.</note>
+                    <note type="desc">Rabbi Wolf served the Temple Beth-El congregation in Corpus
+                        Christi.</note>
                 </person>
                 <person xml:id="fche">
                     <persName>Rev. Francis X. Cheney</persName>
-                    <note type="desc"> Rev. Cheney served as the pastor of St. John's Episcopal Church.</note>
+                    <note type="desc"> Rev. Cheney served as the pastor of St. John's Episcopal
+                        Church.</note>
                 </person>
                 <person xml:id="lher">
                     <persName>Louis Herman</persName>
@@ -94,7 +102,9 @@
                     <persName>Mrs. A. Westerman</persName>
                     <persName>Mrs. Apolph Westerman</persName>
                     <persName>Mary</persName>
-                    <note type="desc">Mary Westerman was a prominent founding member of Temple Emanuel who served in leadership roles in the Temple Emanuel Sisterhood and Hadassah.</note>
+                    <note type="desc">Mary Westerman was a prominent founding member of Temple
+                        Emanuel who served in leadership roles in the Temple Emanuel Sisterhood and
+                        Hadassah.</note>
                 </person>
                 <person xml:id="ssol">
                     <persName>Mrs. Sandra Solomon</persName>
@@ -104,7 +114,8 @@
                 </person>
                 <person xml:id="hspr">
                     <persName>Rev. Hearne Spruce</persName>
-                    <note type="desc">Rev. Spruce served as the pastor of the Church of the Nazarene and was a representative of the Ministral Alliance. </note>
+                    <note type="desc">Rev. Spruce served as the pastor of the Church of the Nazarene
+                        and was a representative of the Ministral Alliance. </note>
                 </person>
                 <person xml:id="hett">
                     <persName> Rabbi H.B. Ettinger</persName>
@@ -147,7 +158,7 @@
                     <persName>Cecilia (Borofsky) Shapiro</persName>
                     <persName>Cecilia Shapiro</persName>
                 </person>
-                
+
                 <person xml:id="brab">
                     <persName>Bertha Rabinovich</persName>
                 </person>
@@ -425,7 +436,7 @@
                 <place xml:id="urgv">
                     <placeName>upper Valley</placeName>
                     <idno type="URI">http://syriaca.org/place/3052</idno>
-                    <idno type="URI">http://pleiades.stoa.org/places/668226</idno> 
+                    <idno type="URI">http://pleiades.stoa.org/places/668226</idno>
                 </place>
                 <place xml:id="rgv">
                     <placeName>Rio Grande Valley</placeName>
@@ -439,12 +450,13 @@
                     <placeName>Israel</placeName>
                     <placeName>State of Israel</placeName>
                     <placeName>nation of Israel</placeName>
-                    <idno type="URI">https://www.cia.gov/library/publications/the-world-factbook/geos/is.html</idno>
+                    <idno type="URI"
+                        >https://www.cia.gov/library/publications/the-world-factbook/geos/is.html</idno>
                 </place>
                 <place xml:id="tema">
                     <placeName>Temple</placeName>
                     <placeName>Temple Emanuel</placeName>
-                    <idno type="URI">https://temple-emanuel.com</idno> 
+                    <idno type="URI">https://temple-emanuel.com</idno>
                 </place>
                 <place xml:id="merc">
                     <placeName>Mercedes</placeName>
@@ -452,15 +464,17 @@
                 </place>
                 <place xml:id="tbni">
                     <placeName>Temple B'nai Israel</placeName>
-                    <idno type="URI">https://www.isjl.org/texas-corpus-christi-encyclopedia.html</idno>
+                    <idno type="URI"
+                        >https://www.isjl.org/texas-corpus-christi-encyclopedia.html</idno>
                 </place>
                 <place xml:id="tbel">
                     <placeName>Temple Beth El</placeName>
-                    <idno type="URI">https://www.isjl.org/texas-corpus-christi-encyclopedia.html</idno>
+                    <idno type="URI"
+                        >https://www.isjl.org/texas-corpus-christi-encyclopedia.html</idno>
                 </place>
                 <place xml:id="cchr">
                     <placeName>Corpus Christi</placeName>
-                    <idno type="URI">https://www.cctexas.com</idno> 
+                    <idno type="URI">https://www.cctexas.com</idno>
                 </place>
                 <place xml:id="sjec">
                     <placeName>St. John's Episcopal Church</placeName>
@@ -470,58 +484,61 @@
                     <placeName>Church of the Nazarene</placeName>
                     <idno type="URI">http://www.rvcnaz.org</idno>
                 </place>
-                    <place xml:id="reyn">
-                        <placeName>Reynosa</placeName>
-                        <idno type="URI">https://en.wikipedia.org/wiki/Reynosa</idno>
-                    </place>
-                    <place xml:id="mexi">
-                        <placeName>Mexico</placeName>
-                        <idno type="URI">https://www.cia.gov/library/publications/the-world-factbook/geos/mx.html</idno>
-                    </place>
-                    <place xml:id="lith">
-                        <placeName>Lithuania</placeName>
-                        <idno type="URI">https://www.cia.gov/library/publications/the-world-factbook/geos/lh.html</idno>
-                    </place>
-                    <place xml:id="wesl">
-                        <placeName>Weslaco</placeName>
-                        <idno type="URI">http://www.weslacotx.gov</idno>
-                    </place>
-                    <place xml:id="edin">
-                        <placeName>Edinburg</placeName>
-                        <idno type="URI">https://cityofedinburg.com</idno>
-                    </place>
-                    <place xml:id="germ">
-                        <placeName>Germany</placeName>
-                        <idno type="URI">https://www.cia.gov/library/publications/the-world-factbook/geos/gm.html</idno>
-                    </place>
-                    <place xml:id="hous">
-                        <placeName>Houston</placeName>
-                        <idno type="URI">http://www.houstontx.gov</idno>
-                    </place>
-                    <place xml:id="gal">
-                        <placeName>Galveston</placeName>
-                        <idno type="URI">https://www.galvestontx.gov</idno>
-                    </place>
-                    <place xml:id="haho">
-                        <placeName>Hadassah hospital</placeName>
-                        <idno type="URI">http://www.hadassah-med.com</idno>
-                    </place>
-                    <place xml:id="rcdc">
-                        <placeName>Red Cross Donor Center</placeName>
-                        <idno type="URI">https://www.redcrossblood.org</idno>
-                    </place>
-                    <place xml:id="dal">
-                        <placeName>Dallas</placeName>
-                        <idno type="URI">https://dallascityhall.com</idno>
-                    </place>
-                    <place xml:id="cac">
-                        <placeName>the Club at Cimarron</placeName>
-                        <idno type="URI">https://www.clubcorp.com/Clubs/Cimarron-Country-Club</idno>
-                    </place>
-                    <place xml:id="miss">
-                        <placeName>Mission</placeName>
-                        <idno type="URI">https://missiontexas.us</idno>
-                    </place>
+                <place xml:id="reyn">
+                    <placeName>Reynosa</placeName>
+                    <idno type="URI">https://en.wikipedia.org/wiki/Reynosa</idno>
+                </place>
+                <place xml:id="mexi">
+                    <placeName>Mexico</placeName>
+                    <idno type="URI"
+                        >https://www.cia.gov/library/publications/the-world-factbook/geos/mx.html</idno>
+                </place>
+                <place xml:id="lith">
+                    <placeName>Lithuania</placeName>
+                    <idno type="URI"
+                        >https://www.cia.gov/library/publications/the-world-factbook/geos/lh.html</idno>
+                </place>
+                <place xml:id="wesl">
+                    <placeName>Weslaco</placeName>
+                    <idno type="URI">http://www.weslacotx.gov</idno>
+                </place>
+                <place xml:id="edin">
+                    <placeName>Edinburg</placeName>
+                    <idno type="URI">https://cityofedinburg.com</idno>
+                </place>
+                <place xml:id="germ">
+                    <placeName>Germany</placeName>
+                    <idno type="URI"
+                        >https://www.cia.gov/library/publications/the-world-factbook/geos/gm.html</idno>
+                </place>
+                <place xml:id="hous">
+                    <placeName>Houston</placeName>
+                    <idno type="URI">http://www.houstontx.gov</idno>
+                </place>
+                <place xml:id="gal">
+                    <placeName>Galveston</placeName>
+                    <idno type="URI">https://www.galvestontx.gov</idno>
+                </place>
+                <place xml:id="haho">
+                    <placeName>Hadassah hospital</placeName>
+                    <idno type="URI">http://www.hadassah-med.com</idno>
+                </place>
+                <place xml:id="rcdc">
+                    <placeName>Red Cross Donor Center</placeName>
+                    <idno type="URI">https://www.redcrossblood.org</idno>
+                </place>
+                <place xml:id="dal">
+                    <placeName>Dallas</placeName>
+                    <idno type="URI">https://dallascityhall.com</idno>
+                </place>
+                <place xml:id="cac">
+                    <placeName>the Club at Cimarron</placeName>
+                    <idno type="URI">https://www.clubcorp.com/Clubs/Cimarron-Country-Club</idno>
+                </place>
+                <place xml:id="miss">
+                    <placeName>Mission</placeName>
+                    <idno type="URI">https://missiontexas.us</idno>
+                </place>
             </listPlace>
             <listOrg>
                 <org xml:id="un">
@@ -543,11 +560,12 @@
                 <org xml:id="tesh">
                     <orgName>Temple Emanuel Sisterhood</orgName>
                     <orgName>the Sisterhood</orgName>
-                    <idno type="URI"></idno>
+                    <idno type="URI"/>
                 </org>
                 <org xml:id="mial">
                     <orgName>Ministerial Alliance</orgName>
-                    <idno type="URI">http://www.nonprofitfacts.com/TX/Church-And-Ministerial-Alliance-International-Restoration-Time-Fellowship.html</idno>
+                    <idno type="URI"
+                        >http://www.nonprofitfacts.com/TX/Church-And-Ministerial-Alliance-International-Restoration-Time-Fellowship.html</idno>
                 </org>
                 <org xml:id="tema">
                     <orgName>Temple Emanuel</orgName>
@@ -563,7 +581,8 @@
                 </org>
                 <org xml:id="uahc">
                     <orgName>Union of American Hebrew Congregations</orgName>
-                    <idno type="URI">https://urj.org/what-we-believe/resolutions/change-name-union-american-hebrew-congregations</idno>
+                    <idno type="URI"
+                        >https://urj.org/what-we-believe/resolutions/change-name-union-american-hebrew-congregations</idno>
                 </org>
                 <org xml:id="mvch">
                     <orgName>McAllen-Valley Chapter</orgName>
