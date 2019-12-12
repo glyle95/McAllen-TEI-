@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_customization.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0"
+  xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <schemaSpec ident="" start="TEI">
+        <desc/>
+        <moduleRef key="header" include="authority availability fileDesc publicationStmt sourceDesc teiHeader titleStmt"/>
+        <moduleRef key="core" include="author bibl biblScope citedRange date editor head name note p pb pubPlace publisher resp respStmt title"/>
+        <moduleRef key="tei"/>
+        <moduleRef key="textstructure" include="body dateline div text trailer"/>
+        <moduleRef key="namesdates" include="persName placeName"/>
+        
+        <elementSpec ident="persName" module="namesdates" mode="change">
+          <content>
+            <textNode/>
+            <elementRef key="placeName"/>
+          </content>
+          <constraintSpec ident="refOnPersName" scheme="schematron">
+          <constraint>
+            <sch:rule context="tei:body//tei:p//tei:persName/@ref">
+              <sch:let name="indexDoc" value="doc('https://raw.githubusercontent.com/glyle95/McAllen-TEI-/master/McAllenIndex.xml')"/>
+              <sch:let name="personIDs" value="$indexDoc//tei:body/tei:listPerson/tei:person/@xml:id"/>
+              <sch:let name="personPtrs" value="for $i in $personIDs return concat('#', $i)"/>
+              <sch:assert test=". = $personPtrs">Value must be one of the following: <sch:value-of
+                select="string-join($personPtrs, ', ')"/>
+              </sch:assert>
+            </sch:rule>
+          </constraint>
+          </constraintSpec>
+          <constraintSpec ident="refOnPlaceName" scheme="schematron">
+            <constraint>
+              <sch:rule context="tei:body//tei:p//tei:placeName/@ref">
+                <sch:let name="indexDoc" value="doc('https://raw.githubusercontent.com/glyle95/McAllen-TEI-/master/McAllenIndex.xml')"/>
+                <sch:let name="placeIDs" value="$indexDoc//tei:body/tei:listPlace/tei:place/@xml:id"/>
+                <sch:let name="placePtrs" value="for $i in $placeIDs return concat('#', $i)"/>
+                <sch:assert test=". = $placePtrs"> Value must be one of the following: <sch:value-of
+                  select="string-join($placePtrs, ', ')"/>
+                </sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
+          <attList>
+            <attDef ident="ref" usage="req">
+                           <valList type="closed">
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="placeName" module="namesdates" mode="change">
+          <content>
+            <textNode/>
+          </content>
+          <attList>
+            <attDef ident="ref">
+              <valList type="closed">
+                <valItem ident="#chal01">
+                  <gloss>Chalcis</gloss>
+                </valItem>
+                <valItem ident="#pal01">
+                  <gloss>Paltus</gloss>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="p" module="core" mode="change">
+          <content>
+            <sequence preserveOrder="false">
+              <elementRef key="note"/>
+              <elementRef key="pb"/>
+              <elementRef key="persName"/>
+              <elementRef key="placeName"/>
+            </sequence>
+          </content>
+          <constraintSpec ident="pInHeader" scheme="schematron">
+            <constraint>
+              <sch:rule context="tei:teiHeader//p">
+                <sch:report test="tei:note">
+                  A &lt;p&gt; element in the &lt;teiHeader&gt; may not contain a &lt;note&gt; element.
+                </sch:report>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
+        </elementSpec>
+        
+        
+        
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>
+
