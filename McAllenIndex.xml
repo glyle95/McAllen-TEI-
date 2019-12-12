@@ -186,8 +186,9 @@
                     <persName>Bea Lack</persName>
                     <persName>Mrs. Sam Lack</persName>
                 </person>
-                <person xml:id="lhas">
+                <person xml:id="lha">
                     <persName>Mrs. J. Haas</persName>
+                    <persName>Lilly Haas</persName>
                 </person>
                 <person xml:id="pwei">
                     <persName>Pauline Weisfeld</persName>
@@ -232,7 +233,7 @@
                 <person xml:id="agra">
                     <persName>Anna Grabiner</persName>
                 </person>
-                <person xml:id="lhaa2">
+                <person xml:id="lhaa02">
                     <persName> Lena Haas</persName>
                 </person>
                 <person xml:id="rhab">
@@ -322,6 +323,9 @@
                 <person xml:id="msch">
                     <persName>Maxine Schlader</persName>
                 </person>
+                <person xml:id="bhor">
+                    <persName>Bernie Horwtiz</persName>
+                </person>
                 <person xml:id="jdav">
                     <persName>Jack</persName>
                     <persName>Jack Davidson</persName>
@@ -368,7 +372,7 @@
                 <person xml:id="bwit">
                     <persName>Mrs. Bert Witte</persName>
                 </person>
-                <person xml:id="lamr">
+                <person xml:id="lmar">
                     <persName>Mrs. Leonard Marcus</persName>
                 </person>
                 <person xml:id="mlev">
