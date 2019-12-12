@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Temple Emanuel 50th Anniversary</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Gabrielle Lyle</authority>
+                <pubPlace>College Station, TX</pubPlace>
+                <date>Fall 2019</date>
+                <availability>
+                    <p>This work is licensed under a Creative Commons Attribution 4.0 International
+                        License and may be freely reused with attribution.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p>l</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person xml:id="rwol">
+                    <persName>Rachel</persName>
+                    <persName>Rachel Wolf</persName>
+                    <idno> Temple Emanuel was founded at Rachel Wolf's house</idno>
+                </person>
+                <person xml:id="cwol">
+                    <persName>Charles Wolf</persName>
+                    <idno>Temple Emanuel as founded at Charles Wolf's house</idno>
+                </person>
+                <person xml:id="awes">
+                    <persName>Adolph Westerman</persName>
+                    <idno>Adloph Westerman was one of the founding members of Temple Emanuel and well-known merchant in the Rio Grande Valley.</idno>
+                </person>
+                <person xml:id="slac">
+                    <persName>Sam Lack</persName>
+                    <idno>Sam Lack was one of the founding members of Temple Emanuel and prominent Israel Bonds advocate.</idno>
+                </person>
+                <person xml:id="bkow">
+                    <persName>Benjamin Kowalski</persName>
+                    <idno >Benjamin Kowalski served as mayor of Brownsville in 1876.</idno>
+                </person>
+                <person xml:id="sede">
+                    <persName>Sophye Edelestein</persName>
+                    <persName>Mrs. J. Edelstein</persName>
+                    <persName>Mrs. Jacob Edelstein</persName>
+                    <idno>Sophye Edelstein was the Sunday School teacher at Temple Beth Israel and Temple Emanuel for many years and was involved in the Temple Emanuel Sisterhood and Hadassah.</idno>
+                </person>
+                <person xml:id="bfar">
+                    <persName>Betty Jean Edelstein Farb</persName>
+                    <persName>Betty Jean Edelstein</persName>
+                    <persName>Betty Jean Farb</persName>
+                </person>
+                <person xml:id="hlew">
+                    <persName>Hilda Chaleff Lewin</persName>
+                    <persName>Mrs. Leroy Lewin</persName>              
+                </person>
+                <person xml:id="mlut">
+                    <persName>Max Lutz</persName>
+                    <idno>Max Lutz was a founding member of Temple Emanuel.</idno>
+                </person>
+                <person xml:id="mada">
+                    <persName>Moe Adams</persName>
+                </person>
+                <person xml:id="zrik">
+                    <persName>Zeb Rike</persName>
+                </person>
+                <person xml:id="ygel">
+                    <persName>Yonah B. Geller</persName>
+                    <persName>Rabbi Geller</persName>
+                    <persName>Rabbi Y. Geller</persName>
+                    <idno> Rabbi Geller served the rabbi Temple B'nai Israel in Corpus Christi, but also led confirmation ceremonies in the Valley.</idno>
+                </person>
+                <person xml:id="swol">
+                    <persName>Sidney Wolf</persName>
+                    <persName>Rabbi Wolf</persName>
+                    <idno>Rabbi Wolf served the Temple Beth-El congregation in Corpus Christi.</idno>
+                </person>
+                <person xml:id="fche">
+                    <persName>Rev. Francis X. Cheney</persName>
+                    <idno> Rev. Cheney served as the pastor of St. John's Episcopal Church.</idno>
+                </person>
+                <person xml:id="lher">
+                    <persName>Louis Herman</persName>
+                </person>
+                <person xml:id="mwes">
+                    <persName>Mary Westerman</persName>
+                    <persName>Mrs. A. Westerman</persName>
+                    <persName>Mrs. Apolph Westerman</persName>
+                    <persName>Mary</persName>
+                    <idno>Mary Westerman was a prominent founding member of Temple Emanuel who served in leadership roles in the Temple Emanuel Sisterhood and Hadassah.</idno>
+                </person>
+                <person xml:id="ssol">
+                    <persName>Mrs. Sandra Solomon</persName>
+                </person>
+                <person xml:id="hgue">
+                    <persName>Miss. Hilda Guerra</persName>
+                </person>
+                <person xml:id="hspr">
+                    <persName>Rev. Hearne Spruce</persName>
+                    <idno>Rev. Spruce served as the pastor of the Church of the Nazarene and was a representative of the Ministral Alliance. </idno>
+                </person>
+                <person xml:id="hett">
+                    <persName> Rabbi H.B. Ettinger</persName>
+                </person>
+                <person xml:id="wgor">
+                    <persName>Rabbi William Gordon</persName>
+                </person>
+                <person xml:id="ltur">
+                    <persName>Rabbi Leo E. Turitz</persName>
+                </person>
+                <person xml:id="mman">
+                    <persName>Rabbi Michael Manson</persName>
+                </person>
+                <person xml:id="mbel">
+                    <persName>Maynard Bell</persName>
+                </person>
+                <person xml:id="jels">
+                    <persName>Rabbi Jeffrey Elson</persName>
+                </person>
+                <person xml:id="bdan">
+                    <persName>Rabbu Bryan Daniels</persName>
+                </person>
+                <person xml:id="dlip">
+                    <persName>Rabbi David Lipper</persName>
+                </person>
+                <person xml:id="lkro">
+                    <persName>Leonard Kroman</persName>
+                </person>
+                <person xml:id="jnew">
+                    <persName>Jacobo Newman</persName>
+                </person>
+                <person xml:id="mtem">
+                    <persName>Moises Tempkin</persName>
+                </person>
+                <person xml:id="mbor">
+                    <persName> Meyer Borofsky</persName>
+                </person>
+                <person xml:id="cbor">
+                    <persName>Cecilia Borofsky</persName>
+                    <persName>Cecilia (Borofsky) Shapiro</persName>
+                    <persName>Cecilia Shapiro</persName>
+                </person>
+                <person xml:id="jbor">
+                    <persName>Jack</persName>
+                </person>
+                <person xml:id="isha">
+                    <persName>Irving Shaprio</persName>
+                </person>
+                <person xml:id="scha">
+                    <persName>Sylvia Chacra</persName>
+                </person>
+                <person xml:id="lfal">
+                    <persName>Lilly Fallek</persName>
+                    <persName>Mrs. Mike Fallek</persName>
+                </person>
+                <person xml:id="ekle">
+                    <persName>Esther Klein</persName>
+                    <persName>Mrs. Ben Klein</persName>
+                </person>
+                <person xml:id="lpec">
+                    <persName>Mrs. L. Peck</persName>
+                </person>
+                <person xml:id="blac">
+                    <persName>Bea Lack</persName>
+                    <persName>Mrs. Sam Lack</persName>
+                </person>
+                <person xml:id="lhas">
+                    <persName>Mrs. J. Haas</persName>
+                </person>
+                <person xml:id="pwei">
+                    <persName>Pauline Weisfeld</persName>
+                    <persName>Mrs. Morris Weisfeld</persName>
+                </person>
+                <person xml:id="rlut">
+                    <persName> Ruth Lutz</persName>
+                    <persName>Mrs. Max Lutz</persName>
+                </person>
+                <person xml:id="fcha">
+                    <persName>Mrs. Albert Chaleff</persName>
+                    <persName>Fanny</persName>
+                </person>
+                <person xml:id="clev">
+                    <persName>Clara Levine</persName>
+                    <persName>Mrs. J. Levine</persName>
+                </person>
+                <person xml:id="esch">
+                    <persName>Mrs. H. I. Schlader</persName>
+                    <persName>Esther Sclader</persName>
+                </person>
+                <person xml:id="nalb">
+                    <persName>Norma Albert</persName>
+                    <persName>Norma Westerman Albert</persName>
+                </person>
+                <person xml:id="reis">
+                    <persName>Rose Eisenberg</persName>
+                </person>
+                <person xml:id="egar">
+                    <persName>Esther Gardner</persName>
+                    <persName>Mrs. Esther Gardner Goldberg</persName>
+                </person>
+                <person xml:id="eger">
+                    <persName>Evelyn Gerrick</persName>
+                </person>
+                <person xml:id="fgel">
+                    <persName>Frieda Gelfer</persName>
+                </person>
+                <person xml:id="agol">
+                    <persName>Anna Goldberg</persName>
+                </person>
+                <person xml:id="agra">
+                    <persName>Anna Grabiner</persName>
+                </person>
+                <person xml:id="lhaa2">
+                    <persName> Lena Haas</persName>
+                </person>
+                <person xml:id="rhab">
+                    <persName>Ruth Haberman</persName>
+                </person>
+                <person xml:id="jhor">
+                    <persName>Jenny Horvich</persName>
+                </person>
+                <person xml:id="mhir">
+                    <persName>Marge Hirtenstein</persName>
+                </person>
+                <person xml:id="dkle">
+                    <persName>Dorothy Kleban</persName>
+                </person>
+                <person xml:id="ckir">
+                    <persName>Clara Kirsh</persName>
+                </person>
+                <person xml:id="ekun">
+                    <persName>Elizabeth Kunik</persName>
+                </person>
+                <person xml:id="zmar">
+                    <persName>Zebella Markham</persName>
+                </person>
+                <person xml:id="jmil">
+                    <persName>Jane Miller</persName>
+                </person>
+                <person xml:id="rmer">
+                    <persName>Rae Merkin</persName>
+                </person>
+                <person xml:id="rmor">
+                    <persName>Rose Morganstem</persName>
+                </person>
+                <person xml:id="gpan">
+                    <persName> Gertrude Pantie</persName>
+                </person>
+                <person xml:id="rsid">
+                    <persName>Ruthie Sidelnik</persName>
+                </person>
+                <person xml:id="bspi">
+                    <persName>Bertha Spielberg</persName>
+                </person>
+                <person xml:id="mten">
+                    <persName>Miriam Tenenbaum</persName>
+                </person>
+                <person xml:id="ewei">
+                    <persName>Elise Weil</persName>
+                </person>
+                <person xml:id="isin">
+                    <persName>Ida Singer</persName>
+                </person>
+                <person xml:id="leva">
+                    <persName>Lenore Evans</persName>
+                </person>
+                <person xml:id="pgol">
+                    <persName>Pearl Goldberg</persName>
+                </person>
+                <person xml:id="fgre">
+                    <persName>Fanny Greenfeld</persName>
+                </person>
+                <person xml:id="nrat">
+                    <persName>Natalie Ratkin</persName>
+                </person>
+                <person xml:id="fste">
+                    <persName>Frances Steinman</persName>
+                </person>
+                <person xml:id="alev">
+                    <persName>Alvin Levine</persName>
+                </person>
+                <person xml:id="rwei">
+                    <persName>Rose Marie Weisfeld</persName>
+                </person>
+                <person xml:id="dger">
+                    <persName>Dolores Gerrick</persName>
+                </person>
+                <person xml:id="mfal">
+                    <persName> Mildred Fallek</persName>
+                </person>
+                <person xml:id="bkun">
+                    <persName>Burton Kunik</persName>
+                </person>
+                <person xml:id="asaf">
+                    <persName>Mrs. Alex Safir</persName>
+                </person>
+                <person xml:id="salb">
+                    <persName>Sharon Margaret Albert</persName>
+                </person>
+                <person xml:id="msch">
+                    <persName>Maxine Schlader</persName>
+                </person>
+                <person xml:id="jdav">
+                    <persName>Jack</persName>
+                    <persName>Jack Davidson</persName>
+                </person>
+                <person xml:id="edav">
+                    <persName>Ester Davidson</persName>
+                </person>
+                <person xml:id="rdav">
+                    <persName>Ruth</persName>
+                    <persName>Ruth Davidson</persName>
+                </person>
+                <person xml:id="lstil">
+                    <persName>Rabbi Leo J. Stillpass</persName>
+                </person>
+                <person xml:id="rwei2">
+                    <persName>Russell Weil</persName>
+                </person>
+                <person xml:id="rham">
+                    <persName>Rose Hamovit</persName>
+                </person>
+                <person xml:id="mcat">
+                    <persName>Mrs. Morris Catchman</persName>
+                </person>
+                <person xml:id="tgol">
+                    <persName>Mrs. Tilly Goldstein</persName>
+                </person>
+                <person xml:id="grab">
+                    <persName>Mrs. George Rabinowitz</persName>
+                </person>
+                <person xml:id="dros">
+                    <persName> Mrs. David Rosenthal</persName>
+                </person>
+                <person xml:id="cher">
+                    <persName>Mrs. Charlene Hertz</persName>
+                    <persName>Charlene Hertz</persName>
+                    <persName>Charlene</persName>
+                </person>
+                <person xml:id="mfri">
+                    <persName>Mrs. Marvin Friedman</persName>
+                </person>
+                <person xml:id="gwei">
+                    <persName>Mrs. Gilbert Weisberg</persName>
+                </person>
+                <person xml:id="bwit">
+                    <persName>Mrs. Bert Witte</persName>
+                </person>
+                <person xml:id="lamr">
+                    <persName>Mrs. Leonard Marcus</persName>
+                </person>
+                <person xml:id="mlev">
+                    <persName>Mrs. Myrna Levin</persName>
+                </person>
+                <person xml:id="sger">
+                    <persName>Mrs. Sara Ellen Weisfeld Gerrick</persName>
+                    <persName>Sara Ellen Gerrick</persName>
+                </person>
+                <person xml:id="mdav">
+                    <persName>Marsha Davis</persName>
+                </person>
+                <person xml:id="sriv">
+                    <persName>Mrs. Sonia Rivas</persName>
+                </person>
+                <person xml:id="dwil">
+                    <persName>Dahlia Wilk</persName>
+                </person>
+                <person xml:id="lwur">
+                    <persName>Leonore Wurtzcl</persName>
+                </person>
+                <person xml:id="rwei3">
+                    <persName>Rosalie Weisfeld</persName>
+                </person>
+                <person xml:id="riba">
+                    <persName>Rae Marie Ibarra</persName>
+                </person>
+                <person xml:id="alip">
+                    <persName> Annette Lipshitz</persName>
+                </person>
+                <person xml:id="rhoh">
+                    <persName>Roberta Hohensteis</persName>
+                </person>
+                <person xml:id="mblu">
+                    <persName>Michael J. Blum</persName>
+                </person>
+            </listPerson>
+            <listPlace>
+                <place xml:id="bvil">
+                    <placeName>Brownsville, Texas</placeName>
+                    <placeName>Brownsville</placeName>
+                    <idno type="URI">https://www.cob.us</idno>
+                </place>
+                <place xml:id="mcal">
+                    <placeName>McAllen</placeName>
+                    <idno type="URI">https://www.mcallen.net</idno>
+                </place>
+                <place xml:id="phar">
+                    <placeName>Pharr</placeName>
+                    <placeName>Pharr, Texas</placeName>
+                    <idno type="URI">http://pharr-tx.gov</idno>
+                </place>
+                <place xml:id="harl">
+                    <placeName>Harlingen</placeName>
+                    <idno type="URI">http://www.myharlingen.us</idno>
+                </place>
+                <place xml:id="mata">
+                    <placeName>Matamoros</placeName>
+                    <idno type="URI">http://syriaca.org/place/3052</idno>
+                </place>
+                <place xml:id="urgv">
+                    <placeName>upper Valley</placeName>
+                    <idno type="URI">http://syriaca.org/place/3052</idno>
+                    <idno type="URI">http://pleiades.stoa.org/places/668226</idno> 
+                </place>
+                <place xml:id="rgv">
+                    <placeName>Rio Grande Valley</placeName>
+                    <placeName>the Valley</placeName>
+                    <idno>The norther region of the Rio Grande Valley.</idno>
+                </place>
+                <place xml:id="tbis">
+                    <placeName>Temple Beth Israel</placeName>
+                </place>
+                <place xml:id="isra">
+                    <placeName>Israel</placeName>
+                    <placeName>State of Israel</placeName>
+                    <placeName>nation of Israel</placeName>
+                    <idno type="URI">https://www.cia.gov/library/publications/the-world-factbook/geos/is.html</idno>
+                </place>
+                <place xml:id="tema">
+                    <placeName>Temple</placeName>
+                    <placeName>Temple Emanuel</placeName>
+                    <idno type="URI">https://temple-emanuel.com</idno> 
+                </place>
+                <place xml:id="merc">
+                    <placeName>Mercedes</placeName>
+                    <idno type="URI">https://cityofmercedes.com</idno>
+                </place>
+                <place xml:id="tbni">
+                    <placeName>Temple B'nai Israel</placeName>
+                    <idno type="URI">https://www.isjl.org/texas-corpus-christi-encyclopedia.html</idno>
+                </place>
+                <place xml:id="tbel">
+                    <placeName>Temple Beth El</placeName>
+                    <idno type="URI">https://www.isjl.org/texas-corpus-christi-encyclopedia.html</idno>
+                </place>
+                <place xml:id="cchr">
+                    <placeName>Corpus Christi</placeName>
+                    <idno type="URI">https://www.cctexas.com</idno> 
+                </place>
+                <place xml:id="sjec">
+                    <placeName>St. John's Episcopal Church</placeName>
+                    <idno type="URI">https://www.stjohnsmcallen.org</idno>
+                </place>
+                <place xml:id="cotz">
+                    <placeName>Church of the Nazarene</placeName>
+                    <idno type="URI">http://www.rvcnaz.org</idno>
+                </place>
+                    <place xml:id="reyn">
+                        <placeName>Reynosa</placeName>
+                        <idno type="URI">https://en.wikipedia.org/wiki/Reynosa</idno>
+                    </place>
+                    <place xml:id="mexi">
+                        <placeName>Mexico</placeName>
+                        <idno type="URI">https://www.cia.gov/library/publications/the-world-factbook/geos/mx.html</idno>
+                    </place>
+                    <place xml:id="lith">
+                        <placeName>Lithuania</placeName>
+                        <idno type="URI">https://www.cia.gov/library/publications/the-world-factbook/geos/lh.html</idno>
+                    </place>
+                    <place xml:id="wesl">
+                        <placeName>Weslaco</placeName>
+                        <idno type="URI">http://www.weslacotx.gov</idno>
+                    </place>
+                    <place xml:id="edin">
+                        <placeName>Edinburg</placeName>
+                        <idno type="URI">https://cityofedinburg.com</idno>
+                    </place>
+                    <place xml:id="germ">
+                        <placeName>Germany</placeName>
+                        <idno type="URI">https://www.cia.gov/library/publications/the-world-factbook/geos/gm.html</idno>
+                    </place>
+                    <place xml:id="hous">
+                        <placeName>Houston</placeName>
+                        <idno type="URI">http://www.houstontx.gov</idno>
+                    </place>
+                    <place xml:id="gal">
+                        <placeName>Galveston</placeName>
+                        <idno type="URI">https://www.galvestontx.gov</idno>
+                    </place>
+                    <place xml:id="haho">
+                        <placeName>Hadassah hospital</placeName>
+                        <idno type="URI">http://www.hadassah-med.com</idno>
+                    </place>
+                    <place xml:id="rcdc">
+                        <placeName>Red Cross Donor Center</placeName>
+                        <idno type="URI">https://www.redcrossblood.org</idno>
+                    </place>
+                    <place xml:id="dal">
+                        <placeName>Dallas</placeName>
+                        <idno type="URI">https://dallascityhall.com</idno>
+                    </place>
+                    <place xml:id="cac">
+                        <placeName>the Club at Cimarron</placeName>
+                        <idno type="URI">https://www.clubcorp.com/Clubs/Cimarron-Country-Club</idno>
+                    </place>
+                    <place xml:id="miss">
+                        <placeName>Mission</placeName>
+                        <idno type="URI">https://missiontexas.us</idno>
+                    </place>
+            </listPlace>
+            <listOrg>
+                <org xml:id="un">
+                    <orgName>U.N.</orgName>
+                    <idno type="URI">https://www.un.org/en/</idno>
+                </org>
+                <org xml:id="hbas">
+                    <orgName>Hebrew Benevolent Society</orgName>
+                    <idno type="URI">http://www.isjl.org/texas-brownsville-encyclopedia.html</idno>
+                </org>
+                <org xml:id="ssch">
+                    <orgName>Sunday School</orgName>
+                    <idno type="URI">https://temple-emanuel.com/study/hebrew-school/</idno>
+                </org>
+                <org xml:id="wmec">
+                    <orgName>Wm. E. Crawford</orgName>
+                    <idno>An old construction company in McAllen, Texas.</idno>
+                </org>
+                <org xml:id="tesh">
+                    <orgName>Temple Emanuel Sisterhood</orgName>
+                    <orgName>the Sisterhood</orgName>
+                    <idno type="URI"></idno>
+                </org>
+                <org xml:id="mial">
+                    <orgName>Ministerial Alliance</orgName>
+                    <idno type="URI">http://www.nonprofitfacts.com/TX/Church-And-Ministerial-Alliance-International-Restoration-Time-Fellowship.html</idno>
+                </org>
+                <org xml:id="tema">
+                    <orgName>Temple Emanuel</orgName>
+                    <idno type="URI">https://temple-emanuel.com</idno>
+                </org>
+                <org xml:id="ncjw">
+                    <orgName>National Council of Jewish Women</orgName>
+                    <idno type="URI">https://www.ncjw.org</idno>
+                </org>
+                <org xml:id="uja">
+                    <orgName>United Jewish Appeal.</orgName>
+                    <idno type="URI">https://en.wikipedia.org/wiki/United_Jewish_Appeal</idno>
+                </org>
+                <org xml:id="uahc">
+                    <orgName>Union of American Hebrew Congregations</orgName>
+                    <idno type="URI">https://urj.org/what-we-believe/resolutions/change-name-union-american-hebrew-congregations</idno>
+                </org>
+                <org xml:id="mvch">
+                    <orgName>McAllen-Valley Chapter</orgName>
+                    <orgName>McAllen-Valley Chapter of Hadassah</orgName>
+                    <idno type="URI">https://temple-emanuel.com/community/hadassah/</idno>
+                </org>
+                <org xml:id="hada">
+                    <orgName>Hadassah</orgName>
+                    <idno type="URI">https://temple-emanuel.com/community/hadassah/</idno>
+                </org>
+                <org xml:id="vch">
+                    <orgName>Valley Chapter of Hadassah</orgName>
+                    <idno type="URI">https://temple-emanuel.com/community/hadassah/</idno>
+                </org>
+                <org xml:id="yali">
+                    <orgName>Youth Aliyah</orgName>
+                    <idno type="URI">https://youthaliyah.org.uk/about#about</idno>
+                </org>
+                <org xml:id="acs">
+                    <orgName>Cancer Society.</orgName>
+                    <orgName>American Cancer Society</orgName>
+                    <idno type="URI">https://www.cancer.org</idno>
+                </org>
+                <org xml:id="bnbr">
+                    <orgName>B'nai B'rith</orgName>
+                    <idno type="URI">https://www.bnaibrith.org</idno>
+                </org>
+                <org xml:id="nibo">
+                    <orgName>National Israel Bond Organization</orgName>
+                    <idno type="URI">https://www.israelbonds.com</idno>
+                </org>
+                <org xml:id="mcc">
+                    <orgName>McAllen Country Club</orgName>
+                    <idno type="URI">https://www.mcallencountryclub.com</idno>
+                </org>
+            </listOrg>
+        </body>
+    </text>
+</TEI>
