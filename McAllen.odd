@@ -79,14 +79,14 @@
         
         <elementSpec ident="p" module="core" mode="change">
           <content>
-            <sequence preserveOrder="false">
+            <alternate>
               <elementRef key="note" minOccurs="0"/>
               <elementRef key="pb" minOccurs="0"/>
               <elementRef key="persName" minOccurs="0"/>
               <elementRef key="placeName" minOccurs="0"/>
               <elementRef key="orgName" minOccurs="0"/>
               <elementRef key="date" minOccurs="0"/>
-            </sequence>
+            </alternate>
           </content>
           <constraintSpec ident="pInHeader" scheme="schematron">
             <constraint>
