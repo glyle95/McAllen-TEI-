@@ -147,6 +147,10 @@
                     <persName>Cecilia (Borofsky) Shapiro</persName>
                     <persName>Cecilia Shapiro</persName>
                 </person>
+                
+                <person xml:id="brab">
+                    <persName>Bertha Rabinovich</persName>
+                </person>
                 <person xml:id="jbor">
                     <persName>Jack</persName>
                 </person>

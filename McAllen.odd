@@ -24,7 +24,7 @@
         <moduleRef key="core" include="author bibl biblScope citedRange date editor head name note p pb pubPlace publisher resp respStmt title"/>
         <moduleRef key="tei"/>
         <moduleRef key="textstructure"/>
-        <moduleRef key="namesdates" include="persName placeName"/>
+        <moduleRef key="namesdates" include="orgName persName placeName"/>
         
         <elementSpec ident="persName" module="namesdates" mode="change">
           <content>
