@@ -28,15 +28,15 @@
                 <person xml:id="rwol">
                     <persName>Rachel</persName>
                     <persName>Rachel Wolf</persName>
-                    <idno> Temple Emanuel was founded at Rachel Wolf's house</idno>
+                    <note type="desc"> Temple Emanuel was founded at Rachel Wolf's house</note>
                 </person>
                 <person xml:id="cwol">
                     <persName>Charles Wolf</persName>
-                    <idno>Temple Emanuel as founded at Charles Wolf's house</idno>
+                    <note type="desc">Temple Emanuel as founded at Charles Wolf's house</note>
                 </person>
                 <person xml:id="awes">
                     <persName>Adolph Westerman</persName>
-                    <idno>Adloph Westerman was one of the founding members of Temple Emanuel and popular merchant in the Rio Grande Valley.</idno>
+                    <note type="desc">Adloph Westerman was one of the founding members of Temple Emanuel and popular merchant in the Rio Grande Valley.</note>
                 </person>
                 <person xml:id="slac">
                     <persName>Sam Lack</persName>
