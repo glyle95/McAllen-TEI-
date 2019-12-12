@@ -435,17 +435,16 @@
                 </place>
                 <place xml:id="mata">
                     <placeName>Matamoros</placeName>
-                    <idno type="URI">http://syriaca.org/place/3052</idno>
+                    <idno type="URI">https://en.wikipedia.org/wiki/Matamoros,_Tamaulipas</idno>
                 </place>
                 <place xml:id="urgv">
                     <placeName>upper Valley</placeName>
-                    <idno type="URI">http://syriaca.org/place/3052</idno>
-                    <idno type="URI">http://pleiades.stoa.org/places/668226</idno>
+                    <note type="desc">The norther region of the Rio Grande Valley</note>
                 </place>
                 <place xml:id="rgv">
                     <placeName>Rio Grande Valley</placeName>
                     <placeName>the Valley</placeName>
-                    <idno>The norther region of the Rio Grande Valley.</idno>
+                    <idno type="URI">https://tshaonline.org/handbook/online/articles/ryr01</idno>
                 </place>
                 <place xml:id="tbis">
                     <placeName>Temple Beth Israel</placeName>
