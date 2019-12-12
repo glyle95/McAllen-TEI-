@@ -40,17 +40,17 @@
                 </person>
                 <person xml:id="slac">
                     <persName>Sam Lack</persName>
-                    <idno>Sam Lack was one of the founding members of Temple Emanuel and prominent Israel Bonds advocate.</idno>
+                    <note type="desc">Sam Lack was one of the founding members of Temple Emanuel and prominent Israel Bonds advocate.</note>
                 </person>
                 <person xml:id="bkow">
                     <persName>Benjamin Kowalski</persName>
-                    <idno >Benjamin Kowalski served as mayor of Brownsville in 1876.</idno>
+                    <note type="desc">Benjamin Kowalski served as mayor of Brownsville in 1876.</note>
                 </person>
                 <person xml:id="sede">
                     <persName>Sophye Edelestein</persName>
                     <persName>Mrs. J. Edelstein</persName>
                     <persName>Mrs. Jacob Edelstein</persName>
-                    <idno>Sophye Edelstein was the Sunday School teacher at Temple Beth Israel and Temple Emanuel for many years and was involved in the Temple Emanuel Sisterhood and Hadassah.</idno>
+                    <note type="desc">Sophye Edelstein was the Sunday School teacher at Temple Beth Israel and Temple Emanuel for many years and was involved in the Temple Emanuel Sisterhood and Hadassah.</note>
                 </person>
                 <person xml:id="bfar">
                     <persName>Betty Jean Edelstein Farb</persName>
@@ -63,7 +63,7 @@
                 </person>
                 <person xml:id="mlut">
                     <persName>Max Lutz</persName>
-                    <idno>Max Lutz was a founding member of Temple Emanuel.</idno>
+                    <note type="desc">Max Lutz was a founding member of Temple Emanuel.</note>
                 </person>
                 <person xml:id="mada">
                     <persName>Moe Adams</persName>
@@ -75,16 +75,16 @@
                     <persName>Yonah B. Geller</persName>
                     <persName>Rabbi Geller</persName>
                     <persName>Rabbi Y. Geller</persName>
-                    <idno> Rabbi Geller served the rabbi Temple B'nai Israel in Corpus Christi, but also led confirmation ceremonies in the Valley.</idno>
+                    <note type="desc"> Rabbi Geller served the rabbi Temple B'nai Israel in Corpus Christi, but also led confirmation ceremonies in the Valley.</note>
                 </person>
                 <person xml:id="swol">
                     <persName>Sidney Wolf</persName>
                     <persName>Rabbi Wolf</persName>
-                    <idno>Rabbi Wolf served the Temple Beth-El congregation in Corpus Christi.</idno>
+                    <note type="desc">Rabbi Wolf served the Temple Beth-El congregation in Corpus Christi.</note>
                 </person>
                 <person xml:id="fche">
                     <persName>Rev. Francis X. Cheney</persName>
-                    <idno> Rev. Cheney served as the pastor of St. John's Episcopal Church.</idno>
+                    <note type="desc"> Rev. Cheney served as the pastor of St. John's Episcopal Church.</note>
                 </person>
                 <person xml:id="lher">
                     <persName>Louis Herman</persName>
@@ -94,7 +94,7 @@
                     <persName>Mrs. A. Westerman</persName>
                     <persName>Mrs. Apolph Westerman</persName>
                     <persName>Mary</persName>
-                    <idno>Mary Westerman was a prominent founding member of Temple Emanuel who served in leadership roles in the Temple Emanuel Sisterhood and Hadassah.</idno>
+                    <note type="desc">Mary Westerman was a prominent founding member of Temple Emanuel who served in leadership roles in the Temple Emanuel Sisterhood and Hadassah.</note>
                 </person>
                 <person xml:id="ssol">
                     <persName>Mrs. Sandra Solomon</persName>
@@ -104,7 +104,7 @@
                 </person>
                 <person xml:id="hspr">
                     <persName>Rev. Hearne Spruce</persName>
-                    <idno>Rev. Spruce served as the pastor of the Church of the Nazarene and was a representative of the Ministral Alliance. </idno>
+                    <note type="desc">Rev. Spruce served as the pastor of the Church of the Nazarene and was a representative of the Ministral Alliance. </note>
                 </person>
                 <person xml:id="hett">
                     <persName> Rabbi H.B. Ettinger</persName>
